@@ -1,0 +1,406 @@
+/* Genel Stil */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Başlıklar */
+h1,
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+
+/* Tablo Konteyneri */
+.table-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Tablo */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    text-align: center;
+}
+
+th:nth-child(4) {
+    text-align: left;
+}
+
+/* Ay Düğmeleri */
+.month-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.month-buttons a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+/* Dashboard Sayfası Özel Stilleri */
+.dashboard-container {
+    margin-top: 50px;
+}
+
+.dashboard-item {
+    margin: 20px;
+    text-align: center;
+}
+
+.dashboard-item a {
+    display: block;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.dashboard-item a:hover {
+    background-color: #0056b3;
+}
+
+/* Profil Öğesi */
+.profile-item a {
+    background-color: #28a745;
+}
+
+.profile-item a:hover {
+    background-color: #218838;
+}
+
+/* FORM kısmı */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-container label {
+    display: block;
+    margin: 15px 0 10px;
+    text-align: left;
+}
+
+.form-container input[type="text"],
+.form-container input[type="date"],
+.form-container select {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin: 0 auto 20px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.form-container button:hover {
+    background-color: #c82333;
+}
+
+
+/* Dashboard'a Geri Dön Bağlantısı */
+.back-to-dashboard {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+
+.form-container1 {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container1 h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-container1 label {
+    display: block;
+    margin: 15px 0 10px;
+    text-align: left;
+}
+
+.form-container1 input[type="text"],
+.form-container1 input[type="date"],
+.form-container1 select {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin: 0 auto 20px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container1 button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.form-container1 button:hover {
+    background-color: #218838;
+}
+
+
+
+/* AYARLAR */
+.settings-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.settings-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.settings-container h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.settings-container a,
+.settings-container button {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: #007bff;
+    text-decoration: none;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.settings-container a:hover,
+.settings-container button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.settings-container button {
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+}
+
+
+
+
+/* Kategori Yönetimi */
+.manage-categories .form-container input[type="text"],
+.manage-categories .form-container select {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin: 0 auto 20px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.manage-categories .form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.manage-categories .form-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Kategori Yönetimi Tablosu */
+.manage-categories table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+.manage-categories table,
+.manage-categories th,
+.manage-categories td {
+    border: 1px solid #ddd;
+}
+
+.manage-categories th,
+.manage-categories td {
+    padding: 12px;
+    text-align: left;
+}
+
+.manage-categories th {
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.manage-categories td a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.manage-categories td a:hover {
+    text-decoration: underline;
+}
+
+/* Profil Öğesi */
+.profile-container {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+    margin-bottom: 20px;
+}
+
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.btn-upload {
+    margin-top: 10px;
+}
+
+.profile-container .form-container1 button {
+    background-color: #28a745;
+}
+
+.profile-container .form-container1 button:hover {
+    background-color: #218838;
+}
+
+/* Dashboard Sayfası Özel Stilleri */
+.dashboard-container .dashboard-item a {
+    background-color: #007bff;
+    color: white;
+}
+
+.dashboard-container .dashboard-item a:hover {
+    background-color: #0056b3;
+}
+
+
+.category-list {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.category-list h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Veritabanı Backup */
+.backup-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.backup-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.backup-container button:hover {
+    background-color: #0056b3;
+}
+
+.month-dropdown select {
+    width: auto;
+    min-width: 120px;
+    /* Gerekirse min-width ayarı yapabilirsin */
+}
