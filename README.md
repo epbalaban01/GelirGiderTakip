@@ -1,4 +1,4 @@
-# GelirGiderTakip
+# Gelir Gider Takip Listesi
 <p align="center"><img src="https://socialify.git.ci/epbalaban01/GelirGiderTakip/image?name=1&amp;owner=1&amp;theme=Light" alt="project-image"></p>
 
 <h2>Açıklama</h2>
